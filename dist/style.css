@@ -17,3 +17,11 @@
 .stage-name{line-height:1.2}.stage-caption{line-height:1.4}.reset-preview{line-height:1.4}
 @media(max-width:600px){.character-stage{height:440px}.reset-preview{bottom:0}}
 
+
+/* Give complete skill animations the whole review panel as their drawing surface. */
+.character-panel{position:relative;isolation:isolate;--preview-bleed:clamp(16px,6vw,110px)}
+.character-stage{--preview-top:54px;--preview-height:435px;--preview-anchor:37%}
+#character-canvas{left:calc(-1 * var(--preview-bleed));top:-100px;width:calc(100% + 2 * var(--preview-bleed));height:calc(100% + 220px);z-index:3;pointer-events:none}
+@media(max-width:850px){.character-stage{--preview-top:65px;--preview-height:360px;--preview-anchor:39%}}
+@media(max-width:600px){.character-stage{--preview-top:35px;--preview-height:327px;--preview-anchor:42%}#character-canvas{top:-75px;height:calc(100% + 150px)}}
+
