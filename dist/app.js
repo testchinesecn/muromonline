@@ -150,9 +150,10 @@ class CharacterStage {
       skeleton.updateWorldTransform();
       const offset = new spine.Vector2(), size = new spine.Vector2();
       skeleton.getBounds(offset, size, []);
-      const item = { id, skeleton, state, offset, size, frameCount: 0, animationBounds: new Map() };
-      item.viewBounds = { minX: offset.x, minY: offset.y, maxX: offset.x + size.x, maxY: offset.y + size.y };
-      item.animationBounds.set('idle', item.viewBounds);
+      // Anchor the body, not the bounds of smoke, swords or travelling effects.
+      const anchor = skeleton.findBone('hip') || skeleton.findBone('Body_LR') || skeleton.findBone('RL_Body') || skeleton.bones[0];
+      const idleAnchor = { x: anchor.worldX, y: anchor.worldY };
+      const item = { id, skeleton, state, offset, size, anchor, idleAnchor, frameCount: 0 };
       this.cache.set(id, item);
       return item;
     });
@@ -179,7 +180,6 @@ class CharacterStage {
     item.skeleton.setToSetupPose();
     item.state.clearTracks();
     item.state.setAnimation(0, 'idle', true);
-    item.viewBounds = item.animationBounds.get('idle');
     this.canvas.dataset.animation = 'idle';
     delete this.canvas.dataset.form;
   }
@@ -190,7 +190,6 @@ class CharacterStage {
     const version = this.playVersion;
     item.skeleton.setToSetupPose();
     const actual = item.skeleton.data.findAnimation(animation) ? animation : animation === 'skill_1_1' && item.skeleton.data.findAnimation('skill_1') ? 'skill_1' : 'idle';
-    item.viewBounds = this.measureAnimation(item, actual);
     item.state.clearTracks();
     item.state.setAnimation(0, actual, actual === 'idle');
     if (actual !== 'idle') item.state.addAnimation(0, 'idle', true, 0);
@@ -213,44 +212,15 @@ class CharacterStage {
       }, item.id === 1 ? 1900 : 1200);
     }
   }
-  measureAnimation(item, name) {
-    if (item.animationBounds.has(name)) return item.animationBounds.get(name);
-    const animation = item.skeleton.data.findAnimation(name);
-    const probe = new spine.Skeleton(item.skeleton.data);
-    probe.setSkinByName('default');
-    const state = new spine.AnimationState(new spine.AnimationStateData(probe.data));
-    state.setAnimation(0, name, false);
-    const offset = new spine.Vector2(), size = new spine.Vector2();
-    const bounds = { ...item.animationBounds.get('idle') };
-    // Frame the complete move, including its longest punch, jump and attached effects.
-    // Sample once per clip, cache the result, and keep the camera steady throughout.
-    const steps = Math.max(1, Math.ceil(animation.duration * 60));
-    for (let frame = 0; frame <= steps; frame++) {
-      if (frame) state.update(animation.duration / steps);
-      state.apply(probe);
-      probe.updateWorldTransform();
-      probe.getBounds(offset, size, []);
-      if (![offset.x, offset.y, size.x, size.y].every(Number.isFinite)) continue;
-      bounds.minX = Math.min(bounds.minX, offset.x);
-      bounds.minY = Math.min(bounds.minY, offset.y);
-      bounds.maxX = Math.max(bounds.maxX, offset.x + size.x);
-      bounds.maxY = Math.max(bounds.maxY, offset.y + size.y);
-    }
-    const result = Number.isFinite(bounds.minX) ? bounds : item.animationBounds.get('idle');
-    item.animationBounds.set(name, result);
-    return result;
-  }
   getPreviewLayout() {
     if (this.previewLayout) return this.previewLayout;
-    const stage = this.stage.getBoundingClientRect();
     const canvas = this.canvas.getBoundingClientRect();
     const style = getComputedStyle(this.stage);
-    const top = parseFloat(style.getPropertyValue('--preview-top'));
     const height = parseFloat(style.getPropertyValue('--preview-height'));
-    const anchor = parseFloat(style.getPropertyValue('--preview-anchor')) / 100;
+    const ring = this.stage.querySelector('.compass-ring').getBoundingClientRect();
     this.previewLayout = {
-      x: stage.left - canvas.left + stage.width * anchor,
-      floor: canvas.height - (stage.top - canvas.top + top + height * .975),
+      x: ring.left + ring.width / 2 - canvas.left,
+      centerY: canvas.bottom - (ring.top + ring.height / 2),
       height: height * .88
     };
     return this.previewLayout;
@@ -276,45 +246,25 @@ class CharacterStage {
     for (let index = 0; index < this.items.length; index++) {
       const item = this.items[index];
       const hero = this.mode === 'hero';
-      if (!hero && item.state.getCurrent(0)?.animation.name === 'idle') {
-        item.viewBounds = item.animationBounds.get('idle');
-      }
       const narrowHero = hero && width < 700;
       const layout = hero ? null : this.getPreviewLayout();
       const targetHeight = hero ? height * (index === 1 ? .94 : narrowHero ? .69 : .83) : layout.height;
-      const bounds = item.viewBounds;
-      const padding = 24;
-      const scale = Math.min(targetHeight / Math.max(1, item.size.y),
-        hero ? Infinity : (width - padding * 2) / Math.max(1, bounds.maxX - bounds.minX),
-        hero ? Infinity : (height - padding * 2) / Math.max(1, bounds.maxY - bounds.minY));
-      item.skeleton.scaleX = scale; item.skeleton.scaleY = scale;
-      const x = hero ? width * (narrowHero ? [ .33, .5, .72 ] : [ .27, .5, .74 ])[index] : layout.x;
-      const desiredX = x - (item.offset.x + item.size.x * .5) * scale;
-      const desiredY = (hero ? height * (index === 1 ? .015 : .03) : layout.floor) - item.offset.y * scale;
-      item.skeleton.x = hero ? desiredX : Math.max(padding - bounds.minX * scale, Math.min(width - padding - bounds.maxX * scale, desiredX));
-      item.skeleton.y = hero ? desiredY : Math.max(padding - bounds.minY * scale, Math.min(height - padding - bounds.maxY * scale, desiredY));
+      // One scale and one body position for every move. Never follow projectile bounds.
+      const scale = targetHeight / Math.max(1, item.size.y);
+      item.skeleton.scaleX = scale;
+      item.skeleton.scaleY = scale;
+      const x = hero ? width * (narrowHero ? [ .33, .5, .72 ] : [ .27, .5, .74 ])[index] : 0;
+      item.skeleton.x = hero ? x - (item.offset.x + item.size.x * .5) * scale : 0;
+      item.skeleton.y = hero ? height * (index === 1 ? .015 : .03) - item.offset.y * scale : 0;
       const animate = !this.reduced || now < (this.manualUntil || 0);
       if (animate || item.frameCount === 0) item.state.update(animate ? delta : 0);
       item.state.apply(item.skeleton);
       item.skeleton.updateWorldTransform();
       if (!hero) {
-        // Also contain blended transition frames between a skill and idle.
-        const poseOffset = new spine.Vector2(), poseSize = new spine.Vector2();
-        item.skeleton.getBounds(poseOffset, poseSize, []);
-        const correction = Math.min(1, (width - padding * 2) / Math.max(1, poseSize.x), (height - padding * 2) / Math.max(1, poseSize.y));
-        if (correction < 1) {
-          item.skeleton.scaleX *= correction;
-          item.skeleton.scaleY *= correction;
-          item.skeleton.updateWorldTransform();
-          item.skeleton.getBounds(poseOffset, poseSize, []);
-        }
-        const moveX = Math.max(padding, Math.min(width - padding - poseSize.x, poseOffset.x)) - poseOffset.x;
-        const moveY = Math.max(padding, Math.min(height - padding - poseSize.y, poseOffset.y)) - poseOffset.y;
-        if (moveX || moveY) {
-          item.skeleton.x += moveX;
-          item.skeleton.y += moveY;
-          item.skeleton.updateWorldTransform();
-        }
+        // Cancel the native body's travel while retaining the limb and effect animation.
+        item.skeleton.x = layout.x - item.anchor.worldX;
+        item.skeleton.y = layout.centerY + (item.idleAnchor.y - item.offset.y - item.size.y * .5) * scale - item.anchor.worldY;
+        item.skeleton.updateWorldTransform();
       }
       this.renderer.draw(this.batcher, item.skeleton);
       item.frameCount++;
