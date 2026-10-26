@@ -1,0 +1,7 @@
+# Wanted poster asset
+
+Created with the built-in ImageGen tool on 2026-10-27, using the user's reference image. Output: `dist/assets/wanted-poster-frame.png`. The exterior is transparent; the center is ivory paper. HTML renders all changing names and bounty amounts.
+
+## Prompt
+
+Edit the supplied reference into a production website asset: a vertically oriented antique One Piece style WANTED parchment poster frame, matching the reference's warm tan worn paper, dark brown ink, irregular torn edges, ink scuffs and delicate bottom flourish. Keep only the single large word WANTED at the top, occupying top 17% of poster. Center portrait window occupies x=10% to 90%, y=21% to 71%, with thin double dark-brown rectangular outline; fill its interior with plain softly mottled light ivory paper (not transparent, no checkerboard), no character. Bottom y=73% to 96% MUST be completely blank aged tan paper, with only very small decorative flourish at y=94%, so dynamic HTML can add DEAD OR ALIVE, character name and bounty later. Remove ALL reference bottom lettering, numbers, currency, duplicated DEAD OR ALIVE and side flourishes. Outside the torn paper silhouette must be genuine alpha transparency, not grey white checkers. Make paper take almost entire canvas with only 2% transparent outer margin. Front-on flat 2D paper illustration, clean legible dark-brown serif WANTED, no perspective, no shadows outside paper, no people, no watermark. Approx portrait aspect 3:4. Preserve reference handcrafted antique look.

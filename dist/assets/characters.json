@@ -72,7 +72,8 @@
       "skill_doku",
       "skill_hie",
       "skill_mera"
-    ]
+    ],
+    "bounty": 3000000000
   },
   {
     "id": 2,
@@ -147,7 +148,8 @@
       "skill_doku",
       "skill_hie",
       "skill_mera"
-    ]
+    ],
+    "bounty": 1111000000
   },
   {
     "id": 3,
@@ -222,7 +224,8 @@
       "skill_doku",
       "skill_hie",
       "skill_mera"
-    ]
+    ],
+    "bounty": 1032000000
   },
   {
     "id": 4,
@@ -297,7 +300,8 @@
       "skill_doku",
       "skill_hie",
       "skill_mera"
-    ]
+    ],
+    "bounty": 366000000
   },
   {
     "id": 5,
@@ -372,6 +376,7 @@
       "skill_doku",
       "skill_hie",
       "skill_mera"
-    ]
+    ],
+    "bounty": 500000000
   }
 ]

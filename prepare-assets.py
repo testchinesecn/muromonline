@@ -37,6 +37,7 @@ info = json.loads((catalog / 'SkillInfo.json').read_text(encoding='utf-8-sig'))[
 stats = json.loads((catalog / 'SkillData.json').read_text(encoding='utf-8-sig'))['data']
 characters = []
 names = ['Luffy', 'Zoro', 'Sanji', 'Nami', 'Usopp']
+bounties = [3000000000, 1111000000, 1032000000, 366000000, 500000000]
 roles = ['Thuyền trưởng · Cận chiến', 'Kiếm sĩ · Cận chiến', 'Hắc cước · Cận chiến', 'Hoa tiêu · Hỗ trợ', 'Xạ thủ · Tầm xa']
 descriptions = [
     'Một chiếc mũ rơm, một lời hứa và giấc mơ trở thành Vua Hải Tặc. Luffy lao thẳng vào trận chiến với những đòn đánh cao su đầy uy lực, luôn là người mở đường cho đồng đội.',
@@ -69,7 +70,7 @@ for i, name in enumerate(names, 1):
         shutil.copy2(icon, OUT / f'skill-{i}-{sid}.png')
         stat = next((s for s in stats if s.get('idCharacter') == i and s.get('idSkill') == sid and s.get('level') == 1), {})
         skills.append({'id': sid, 'name': entry['name'], 'description': entry['description'].strip(), 'mana': stat.get('mana'), 'level': stat.get('levelRequire'), 'animation': ('idle' if sid == 4 else 'skill_1_1' if sid == 1 else f'skill_{sid}')})
-    characters.append({'id': i, 'name': name, 'role': roles[i-1], 'description': descriptions[i-1], 'skills': skills, 'animations': list(skeleton['animations'])})
+    characters.append({'id': i, 'name': name, 'bounty': bounties[i-1], 'role': roles[i-1], 'description': descriptions[i-1], 'skills': skills, 'animations': list(skeleton['animations'])})
 (OUT / 'characters.json').write_text(json.dumps(characters, ensure_ascii=False, indent=2), encoding='utf-8')
 
 def download(pair):

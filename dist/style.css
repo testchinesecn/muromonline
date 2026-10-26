@@ -25,3 +25,27 @@
 @media(max-width:850px){.character-stage{--preview-height:360px}}
 @media(max-width:600px){.character-stage{--preview-height:327px}#character-canvas{top:-75px;height:calc(100% + 150px)}}
 
+
+/* A real wanted poster replaces the old circle. The full-page animation stays above it. */
+.character-stage{height:auto;min-height:0;padding:0 0 44px;width:100%;max-width:none}
+.wanted-poster{position:relative;width:94%;max-width:450px;aspect-ratio:3/4;margin:0 auto;color:#493020;filter:drop-shadow(0 8px 10px #5b3d2426)}
+.wanted-paper{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none}
+.wanted-portrait{position:absolute;left:10%;top:21%;width:80%;height:50%}
+.wanted-verdict,.wanted-name,.wanted-reward,.wanted-authority{position:absolute;left:8%;width:84%;text-align:center;line-height:1.2}
+.wanted-verdict{top:73%;font:700 clamp(15px,2.1vw,25px)/1.2 Georgia,serif;letter-spacing:3px}
+.wanted-name{top:79%;font-family:var(--display);font-size:clamp(20px,2.5vw,31px);font-weight:800;letter-spacing:1px;white-space:nowrap}
+.wanted-reward{top:86%;display:flex;justify-content:center;align-items:center;gap:7px;font-family:Georgia,serif;font-size:clamp(22px,2.6vw,33px);font-weight:700;letter-spacing:1px;font-variant-numeric:tabular-nums}
+.berry-symbol{font-family:Georgia,serif;font-size:1.15em}.wanted-authority{top:91.7%;font-size:6px;font-weight:700;letter-spacing:2px;color:#74563b}
+.character-stage .reset-preview{bottom:0;font-size:18px}.character-panel{align-items:center}
+@media(max-width:850px){.wanted-verdict{font-size:17px;letter-spacing:1.8px}.wanted-name{font-size:22px}.wanted-reward{font-size:23px;gap:5px}.wanted-authority{font-size:5px;letter-spacing:1px}}
+@media(max-width:600px){.character-stage{height:auto;max-width:390px;padding-bottom:38px}.wanted-poster{width:100%;max-width:365px}.wanted-verdict{font-size:22px;letter-spacing:2px}.wanted-name{font-size:27px}.wanted-reward{font-size:28px}.wanted-authority{font-size:5px;letter-spacing:1.5px}.character-stage .reset-preview{font-size:16px}.character-panel{gap:25px}}
+@media(max-width:360px){.wanted-verdict{font-size:19px}.wanted-name{font-size:23px}.wanted-reward{font-size:24px}}
+
+
+/* Align live content with the final illustrated paper window. */
+.wanted-portrait{left:11%;top:24%;width:78%;height:42.5%}.wanted-verdict{top:69%}.wanted-name{top:75.2%}.wanted-reward{top:82%}.wanted-authority{top:89%}
+
+
+/* Scale poster lettering with the paper itself, including narrow phones. */
+.wanted-poster{container-type:inline-size}.wanted-verdict{font-size:clamp(15px,6cqw,25px)}.wanted-name{font-size:clamp(18px,7cqw,31px)}.wanted-reward{font-size:clamp(19px,7cqw,33px);letter-spacing:.3px;gap:5px}
+

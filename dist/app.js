@@ -4,7 +4,7 @@ const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
 const infoDialog = $('#info-dialog');
 const videoDialog = $('#video-dialog');
-const charactersReady = fetch('assets/characters.json').then(response => {
+const charactersReady = fetch('assets/characters.json?v=bounties-20261027').then(response => {
   if (!response.ok) throw new Error('Không tải được dữ liệu nhân vật.');
   return response.json();
 });
@@ -215,13 +215,11 @@ class CharacterStage {
   getPreviewLayout() {
     if (this.previewLayout) return this.previewLayout;
     const canvas = this.canvas.getBoundingClientRect();
-    const style = getComputedStyle(this.stage);
-    const height = parseFloat(style.getPropertyValue('--preview-height'));
-    const ring = this.stage.querySelector('.compass-ring').getBoundingClientRect();
+    const portrait = this.stage.querySelector('.wanted-portrait').getBoundingClientRect();
     this.previewLayout = {
-      x: ring.left + ring.width / 2 - canvas.left,
-      centerY: canvas.bottom - (ring.top + ring.height / 2),
-      height: height * .88
+      x: portrait.left + portrait.width / 2 - canvas.left,
+      centerY: canvas.bottom - (portrait.top + portrait.height / 2),
+      height: portrait.height * .90
     };
     return this.previewLayout;
   }
@@ -309,6 +307,7 @@ async function chooseCharacter(character, first = false) {
   $('#character-role').textContent = character.role;
   $('#character-description').textContent = character.description;
   $('#stage-name').textContent = fullNames[character.id - 1];
+  $('#character-bounty').textContent = new Intl.NumberFormat('en-US').format(character.bounty);
   $('#character-canvas').setAttribute('aria-label', `Hoạt ảnh nhân vật ${character.name}`);
   $('#character-canvas').dataset.ready = 'false';
   $('#skill-buttons').replaceChildren(...character.skills.map(skill => {

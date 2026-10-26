@@ -32,6 +32,9 @@ Có thể đưa toàn bộ nội dung `dist/` lên hosting tĩnh hoặc Nginx/II
 
 ## Nguồn tài nguyên
 
+- Bảng truy nã: `dist/assets/wanted-poster-frame.png`, chỉnh bằng ImageGen từ mẫu người dùng cung cấp; tên và tiền truy nã là chữ HTML thay theo nhân vật.
+- Tiền truy nã đối chiếu ngày 27/10/2026 trên [ONE PIECE.com](https://one-piece.com/character/Mugiwarano_itimi/index.html): Luffy 3,000,000,000; Zoro 1,111,000,000; Sanji 1,032,000,000; Nami 366,000,000; Usopp 500,000,000 Berry. Các giá trị nằm trong `dist/assets/characters.json` và `prepare-assets.py`.
+
 - Nền bến cảng và hình giao diện: `01_CLIENT_PROJECT/Assets/Resources/EntryUi/KhoiNguyen/Art`.
 - Skeleton và atlas nhân vật: `01_CLIENT_PROJECT/Assets/RecoveredPcContent/herospine/type_1..5/1`.
 - Gear Fourth, Giáp hắc ẩn: `01_CLIENT_PROJECT/Assets/Resources/datamanager/spine/zoom_1`, `zoom_3`.
