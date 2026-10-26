@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "name": "Luffy",
+    "role": "Thuyền trưởng · Cận chiến",
+    "description": "Một chiếc mũ rơm, một lời hứa và giấc mơ trở thành Vua Hải Tặc. Luffy lao thẳng vào trận chiến với những đòn đánh cao su đầy uy lực, luôn là người mở đường cho đồng đội.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Cú đấm cao su",
+        "description": "Chiêu tấn công cơ bản",
+        "mana": 1,
+        "level": 1,
+        "animation": "skill_1_1"
+      },
+      {
+        "id": 2,
+        "name": "Súng máy cao su",
+        "description": "Luffy đấm liên tiếp gây sát thương cực lớn trong 2 giây và làm choáng mục tiêu trong thời gian thi triển.",
+        "mana": 5,
+        "level": 10,
+        "animation": "skill_2"
+      },
+      {
+        "id": 3,
+        "name": "Đại bác cao su",
+        "description": "Đại bác cao su sát thương lớn trong phạm vi rộng.",
+        "mana": 50,
+        "level": 15,
+        "animation": "skill_3"
+      },
+      {
+        "id": 4,
+        "name": "Sức sống mãnh liệt",
+        "description": "Hỗ trợ bị động.",
+        "mana": 0,
+        "level": 20,
+        "animation": "idle"
+      },
+      {
+        "id": 5,
+        "name": "Súng ná cao su",
+        "description": "Dịch chuyển đến mục tiêu gây sát thương lớn.",
+        "mana": 300,
+        "level": 25,
+        "animation": "skill_5"
+      },
+      {
+        "id": 6,
+        "name": "Gear Fourth",
+        "description": "Cường hóa bản thân.",
+        "mana": 20,
+        "level": 30,
+        "animation": "skill_6"
+      }
+    ],
+    "animations": [
+      "die",
+      "fall",
+      "fall_end",
+      "hitted",
+      "idle",
+      "jump",
+      "jump2",
+      "run",
+      "skill_1_1",
+      "skill_1_2",
+      "skill_2",
+      "skill_3",
+      "skill_5",
+      "skill_6",
+      "skill_doku",
+      "skill_hie",
+      "skill_mera"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Zoro",
+    "role": "Kiếm sĩ · Cận chiến",
+    "description": "Ba thanh kiếm và một ý chí không lay chuyển. Zoro áp sát đối thủ, tung những đường kiếm dứt khoát và cuốn kẻ địch vào cuồng phong của Tam Kiếm Phái.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Song kiếm",
+        "description": "Chiêu tấn công cơ bản.",
+        "mana": 1,
+        "level": 1,
+        "animation": "skill_1_1"
+      },
+      {
+        "id": 2,
+        "name": "Tuyệt kĩ tam kiếm",
+        "description": "Trảm 1 đường kiếm dọc gây sát thương lớn lên kẻ địch.",
+        "mana": 50,
+        "level": 10,
+        "animation": "skill_2"
+      },
+      {
+        "id": 3,
+        "name": "Truy Kích",
+        "description": "Lao vào mục tiêu sát thương và làm choáng mục tiêu trong 1 giây.",
+        "mana": 80,
+        "level": 15,
+        "animation": "skill_3"
+      },
+      {
+        "id": 4,
+        "name": "Tam kiếm phái",
+        "description": "Hỗ trợ bị động.",
+        "mana": 0,
+        "level": 20,
+        "animation": "idle"
+      },
+      {
+        "id": 5,
+        "name": "Cuồng Phong",
+        "description": "Chém ra lốc xoáy gây sát thương tối đa 5 mục tiêu.",
+        "mana": 5,
+        "level": 25,
+        "animation": "skill_5"
+      },
+      {
+        "id": 6,
+        "name": "Vua địa ngục",
+        "description": "Cường hóa bản thân.",
+        "mana": 20,
+        "level": 30,
+        "animation": "skill_6"
+      }
+    ],
+    "animations": [
+      "hitted",
+      "die",
+      "fall",
+      "fall_end",
+      "idle",
+      "jump",
+      "jump2",
+      "run",
+      "skill_1_1",
+      "skill_1_2",
+      "skill_2",
+      "skill_3",
+      "skill_5",
+      "skill_6",
+      "skill_doku",
+      "skill_hie",
+      "skill_mera"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sanji",
+    "role": "Hắc cước · Cận chiến",
+    "description": "Đầu bếp của băng Mũ Rơm cũng là một chiến binh hắc cước. Những cú đá nhanh, mạnh cùng ngọn lửa rực cháy tạo nên phong cách chiến đấu riêng của Sanji.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Cước pháp",
+        "description": "Chiêu tấn công cơ bản.",
+        "mana": 1,
+        "level": 1,
+        "animation": "skill_1_1"
+      },
+      {
+        "id": 2,
+        "name": "Cú đá lốc xoáy",
+        "description": "Xoay người đá trong 3 giây và khiêu khích mục tiêu.",
+        "mana": 80,
+        "level": 10,
+        "animation": "skill_2"
+      },
+      {
+        "id": 3,
+        "name": "Cú sút lửa",
+        "description": "Sanji ma sát chân để tạo ra lửa tấn công và thiêu đốt mục tiêu.",
+        "mana": 50,
+        "level": 15,
+        "animation": "skill_3"
+      },
+      {
+        "id": 4,
+        "name": "Phong cách hắc cước",
+        "description": "Hỗ trợ bị động.",
+        "mana": 0,
+        "level": 20,
+        "animation": "idle"
+      },
+      {
+        "id": 5,
+        "name": "Hỏa ngục",
+        "description": "Tạo ra mưa lửa gây sát thương tối đa 5 mục tiêu.",
+        "mana": 100,
+        "level": 25,
+        "animation": "skill_5"
+      },
+      {
+        "id": 6,
+        "name": "Giáp hắc ẩn",
+        "description": "Cường hóa bản thân.",
+        "mana": 20,
+        "level": 30,
+        "animation": "skill_6"
+      }
+    ],
+    "animations": [
+      "die",
+      "fall",
+      "fall_end",
+      "hitted",
+      "idle",
+      "jump",
+      "jump2",
+      "run",
+      "skill_1_1",
+      "skill_1_2",
+      "skill_2",
+      "skill_3",
+      "skill_5",
+      "skill_6",
+      "skill_doku",
+      "skill_hie",
+      "skill_mera"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Nami",
+    "role": "Hoa tiêu · Hỗ trợ",
+    "description": "Hoa tiêu tài năng dẫn cả băng vượt qua những vùng biển khắc nghiệt. Nami điều khiển thời tiết, gọi sấm sét và hỗ trợ đồng đội bằng sức mạnh của gió.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Gậy thời tiết",
+        "description": "Chiêu tấn công cơ bản.",
+        "mana": 1,
+        "level": 1,
+        "animation": "skill_1_1"
+      },
+      {
+        "id": 2,
+        "name": "Lôi kích",
+        "description": "Đánh ra tia sét gây sát thương lên 3 mục tiêu.",
+        "mana": 50,
+        "level": 10,
+        "animation": "skill_2"
+      },
+      {
+        "id": 3,
+        "name": "Cơn gió hộ mệnh",
+        "description": "Hồi máu, tăng tấn công và giáp cho bản thân và đồng minh trong 15 giây.",
+        "mana": 50,
+        "level": 15,
+        "animation": "skill_3"
+      },
+      {
+        "id": 4,
+        "name": "Đứa con của thời tiết",
+        "description": "Hỗ trợ bị động.",
+        "mana": 0,
+        "level": 20,
+        "animation": "idle"
+      },
+      {
+        "id": 5,
+        "name": "Bong bóng nước",
+        "description": "Ném ra bong bóng nước khống chế mục tiêu trong 3 giây.",
+        "mana": 50,
+        "level": 25,
+        "animation": "skill_5"
+      },
+      {
+        "id": 6,
+        "name": "Cơn Thịnh Nộ Của Zeus",
+        "description": "Tạo ra bão sét cực lớn rơi xuống 5 mục tiêu xung quanh.",
+        "mana": 100,
+        "level": 30,
+        "animation": "skill_6"
+      }
+    ],
+    "animations": [
+      "die",
+      "fall",
+      "fall_end",
+      "hitted",
+      "idle",
+      "jump",
+      "jump2",
+      "run",
+      "skill_1_1",
+      "skill_1_2",
+      "skill_2",
+      "skill_3",
+      "skill_5",
+      "skill_6",
+      "skill_doku",
+      "skill_hie",
+      "skill_mera"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Usopp",
+    "role": "Xạ thủ · Tầm xa",
+    "description": "Chàng xạ thủ mang trong mình giấc mơ trở thành chiến binh dũng cảm của biển cả. Usopp chiến đấu từ xa với những loại đạn đặc biệt và khả năng khống chế linh hoạt.",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Đạn Nổ",
+        "description": "Chiêu tấn công cơ bản, bắn ra viên đạn vào mục tiêu.",
+        "mana": 1,
+        "level": 1,
+        "animation": "skill_1_1"
+      },
+      {
+        "id": 2,
+        "name": "Đạn cầu vồng",
+        "description": "Bắn ra 5 viên đạn chí mạng vào mục tiêu, sau đó đi vào trạng thái tàng hình.",
+        "mana": 5,
+        "level": 10,
+        "animation": "skill_2"
+      },
+      {
+        "id": 3,
+        "name": "Đạn cây tre",
+        "description": "Bắn ra hạt giống mọc lên bụi tre, gây sát thương và làm chậm mục tiêu.",
+        "mana": 50,
+        "level": 15,
+        "animation": "skill_3"
+      },
+      {
+        "id": 4,
+        "name": "Siêu xạ thủ",
+        "description": "Hỗ trợ bị động, tăng các chỉ số cho nhân vật.",
+        "mana": 0,
+        "level": 20,
+        "animation": "idle"
+      },
+      {
+        "id": 5,
+        "name": "Đạn sấm sét",
+        "description": "Bắn ra cơn bão sét gây sát thương khủng.",
+        "mana": 300,
+        "level": 25,
+        "animation": "skill_5"
+      },
+      {
+        "id": 6,
+        "name": "Điên cuồng",
+        "description": "Cường hoá bản thân bởi hào quang sấm sét, tăng mạnh tấn công, xuyên giáp, hút máu và tốc chạy cho nhân vật trong một khoảng thời gian ngắn.",
+        "mana": 20,
+        "level": 30,
+        "animation": "skill_6"
+      }
+    ],
+    "animations": [
+      "die",
+      "fall",
+      "fall_end",
+      "hitted",
+      "idle",
+      "jump",
+      "jump2",
+      "run",
+      "skill_1_1",
+      "skill_1_2",
+      "skill_2",
+      "skill_3",
+      "skill_5",
+      "skill_6",
+      "skill_doku",
+      "skill_hie",
+      "skill_mera"
+    ]
+  }
+]

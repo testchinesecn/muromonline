@@ -1,0 +1,603 @@
+sanji_hacan.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+scale:0.3
+Luffy/ban_chan_phai
+bounds:951,407,39,35
+Luffy/ban_chan_phai1
+bounds:267,431,55,28
+Luffy/ban_chan_trai
+bounds:782,419,53,26
+Luffy/ban_chan_trai1
+bounds:536,422,53,27
+Luffy/ban_tay_phai
+bounds:491,366,25,23
+Luffy/ban_tay_trai
+bounds:2,371,25,26
+rotate:90
+Luffy/ban_tay_trai3
+bounds:861,379,30,28
+rotate:90
+Luffy/ban_tay_trai_chong
+bounds:652,384,32,35
+rotate:90
+Luffy/chan_duoi_phai
+bounds:160,434,33,48
+rotate:90
+Luffy/chan_duoi_phai1
+bounds:2,431,33,46
+rotate:90
+Luffy/chan_duoi_trai
+bounds:704,407,26,39
+offsets:0,2,26,42
+Luffy/chan_duoi_trai1
+bounds:425,899,26,49
+offsets:0,0,26,50
+Luffy/chan_tren_phai
+bounds:713,575,53,58
+offsets:0,0,54,58
+rotate:90
+Luffy/chan_tren_phai1
+bounds:485,516,39,60
+Luffy/chan_tren_trai
+bounds:338,575,53,64
+rotate:90
+Luffy/chan_tren_trai1
+bounds:202,702,49,52
+offsets:1,1,50,56
+Luffy/co_ao_sau
+bounds:69,474,88,31
+Luffy/co_ao_sau1
+bounds:744,452,67,50
+rotate:180
+Luffy/co_ao_truoc
+bounds:184,392,54,37
+Luffy/co_ao_truoc1
+bounds:290,387,42,51
+rotate:90
+Luffy/dau
+bounds:751,912,110,105
+rotate:90
+Luffy/dau1
+bounds:849,916,101,104
+rotate:270
+Luffy/dau2
+bounds:654,918,104,95
+rotate:90
+Luffy/khan
+bounds:608,364,32,32
+rotate:270
+Luffy/khan1
+bounds:608,364,32,32
+rotate:270
+Luffy/long_may
+bounds:88,371,30,21
+Luffy/long_may_trai
+bounds:368,747,20,17
+Luffy/lung
+bounds:180,606,59,92
+offsets:0,0,59,93
+rotate:90
+Luffy/minh
+bounds:932,631,63,90
+rotate:90
+Luffy/minh1
+bounds:620,598,52,91
+rotate:90
+Luffy/tay_duoi_phai
+bounds:927,382,23,41
+rotate:90
+Luffy/tay_duoi_trai
+bounds:50,408,32,39
+rotate:90
+Luffy/tay_tren_phai
+bounds:114,431,36,44
+rotate:90
+Luffy/tay_tren_trai
+bounds:818,385,24,41
+rotate:90
+Luffy/toc_mai_phai
+bounds:123,389,43,67
+rotate:90
+Luffy/toc_mai_phai1
+bounds:864,476,46,56
+rotate:90
+Luffy/toc_mai_phai2
+bounds:2,466,39,75
+rotate:90
+Luffy/toc_mai_trai
+bounds:152,375,25,66
+rotate:90
+Luffy/toc_mai_trai1
+bounds:202,663,20,59
+rotate:90
+Luffy/toc_tren
+bounds:814,482,59,49
+rotate:180
+Luffy/toc_tren1
+bounds:961,444,40,53
+rotate:90
+Luffy/vat_ao_choang_phai
+bounds:212,681,78,159
+rotate:90
+Luffy/vat_ao_choang_sau1
+bounds:301,898,152,124
+Luffy/vat_ao_choang_trai
+bounds:878,680,136,147
+offsets:0,0,136,148
+Luffy/vat_ao_phai1
+bounds:359,680,88,157
+rotate:90
+Luffy/vat_ao_sau
+bounds:2,900,169,122
+Luffy/vat_ao_trai1
+bounds:882,580,63,59
+rotate:90
+bui_roi/ef_00
+bounds:455,723,62,14
+offsets:137,73,267,150
+bui_roi/ef_02
+bounds:2,587,97,38
+offsets:93,68,267,150
+bui_roi/ef_04
+bounds:156,661,107,44
+offsets:79,69,267,150
+rotate:90
+bui_roi/ef_06
+bounds:547,699,103,46
+offsets:77,68,267,150
+bui_roi/ef_08
+bounds:454,629,84,50
+offsets:75,66,267,150
+bui_roi/ef_10
+bounds:404,577,66,50
+offsets:72,66,267,150
+bui_roi/ef_12
+bounds:539,540,64,44
+offsets:71,66,267,150
+bui_roi/ef_14
+bounds:369,420,49,30
+offsets:70,67,267,150
+ef_bui_chay/bui_chay (1)
+bounds:922,538,79,31
+offsets:4,42,90,90
+ef_bui_chay/bui_chay (2)
+bounds:63,507,77,29
+offsets:3,43,90,90
+ef_bui_chay/bui_chay (3)
+bounds:305,504,76,28
+offsets:2,42,90,90
+ef_bui_chay/bui_chay (4)
+bounds:142,504,76,29
+offsets:2,42,90,90
+ef_bui_chay/bui_chay (5)
+bounds:690,529,80,30
+offsets:1,42,90,90
+ef_bui_chay/bui_chay (6)
+bounds:168,535,81,31
+offsets:1,42,90,90
+fx/body_xoay
+bounds:2,689,72,76
+offsets:15,19,96,115
+fx/cuon_tay (1)
+bounds:154,938,12,13
+offsets:10,15,60,60
+fx/cuon_tay (10)
+bounds:305,461,41,47
+offsets:10,10,60,60
+rotate:90
+fx/cuon_tay (11)
+bounds:354,457,42,45
+offsets:9,12,60,60
+fx/cuon_tay (12)
+bounds:692,448,41,42
+offsets:9,14,60,60
+rotate:90
+fx/cuon_tay (13)
+bounds:732,390,40,25
+offsets:11,26,60,60
+fx/cuon_tay (14)
+bounds:120,369,31,18
+offsets:20,32,60,60
+fx/cuon_tay (15)
+bounds:202,751,21,17
+offsets:29,34,60,60
+fx/cuon_tay (16)
+bounds:2,937,13,15
+offsets:38,40,60,60
+fx/cuon_tay (2)
+bounds:27,901,13,13
+offsets:10,13,60,60
+fx/cuon_tay (3)
+bounds:343,368,24,25
+offsets:9,11,60,60
+rotate:90
+fx/cuon_tay (4)
+bounds:220,498,35,28
+offsets:9,7,60,60
+rotate:90
+fx/cuon_tay (5)
+bounds:911,413,38,36
+offsets:10,6,60,60
+fx/cuon_tay (6)
+bounds:610,416,40,37
+offsets:9,5,60,60
+fx/cuon_tay (7)
+bounds:867,436,42,38
+offsets:9,4,60,60
+fx/cuon_tay (8)
+bounds:914,451,41,45
+offsets:10,4,60,60
+rotate:90
+fx/cuon_tay (9)
+bounds:645,455,41,45
+offsets:9,5,60,60
+rotate:90
+fx/da_lua (1)
+bounds:299,369,32,17
+offsets:4,21,60,60
+fx/da_lua (2)
+bounds:239,401,49,24
+offsets:9,18,60,60
+fx/da_lua (3)
+bounds:491,391,47,24
+offsets:11,18,60,60
+fx/da_lua (4)
+bounds:343,394,47,24
+offsets:12,18,60,60
+fx/da_lua (5)
+bounds:540,395,45,25
+offsets:14,18,60,60
+fx/da_lua (6)
+bounds:43,383,43,23
+offsets:16,19,60,60
+fx/da_lua (7)
+bounds:689,386,40,19
+offsets:17,21,60,60
+fx/da_lua (8)
+bounds:113,1011,21,11
+offsets:31,25,60,60
+fx/eff_cuon (1)
+bounds:493,417,35,41
+offsets:47,3,120,120
+rotate:90
+fx/eff_cuon (10)
+bounds:635,754,71,83
+offsets:25,24,120,120
+rotate:90
+fx/eff_cuon (11)
+bounds:720,698,63,78
+offsets:30,27,120,120
+fx/eff_cuon (12)
+bounds:273,581,60,63
+offsets:32,39,120,120
+rotate:90
+fx/eff_cuon (13)
+bounds:526,495,43,51
+offsets:34,42,120,120
+rotate:90
+fx/eff_cuon (14)
+bounds:893,380,31,32
+offsets:36,47,120,120
+rotate:90
+fx/eff_cuon (15)
+bounds:405,680,18,16
+offsets:43,54,120,120
+fx/eff_cuon (16)
+bounds:128,903,15,13
+offsets:45,55,120,120
+fx/eff_cuon (2)
+bounds:472,578,49,65
+offsets:46,3,120,120
+rotate:90
+fx/eff_cuon (3)
+bounds:547,643,54,86
+offsets:45,3,120,120
+rotate:90
+fx/eff_cuon (4)
+bounds:429,832,60,111
+offsets:40,3,120,120
+rotate:90
+fx/eff_cuon (5)
+bounds:2,829,70,111
+offsets:30,4,120,120
+rotate:90
+fx/eff_cuon (6)
+bounds:115,830,71,109
+offsets:26,7,120,120
+rotate:90
+fx/eff_cuon (7)
+bounds:226,831,70,104
+offsets:25,12,120,120
+rotate:90
+fx/eff_cuon (8)
+bounds:747,838,73,99
+offsets:25,16,120,120
+rotate:90
+fx/eff_cuon (9)
+bounds:542,819,73,91
+offsets:25,20,120,120
+rotate:90
+fx/feng1_0001
+bounds:2,510,59,38
+offsets:1,1,60,39
+fx/feng1_0002
+bounds:719,491,58,36
+offsets:0,1,59,37
+fx/feng1_0003
+bounds:159,469,59,33
+offsets:1,1,60,34
+fx/feng1_0004
+bounds:220,461,58,33
+offsets:0,2,59,35
+fx/khoia
+bounds:562,908,114,90
+offsets:12,0,139,90
+rotate:90
+fx/light
+bounds:359,630,93,48
+offsets:7,1,103,50
+fx/lua_dat (10)
+bounds:172,568,85,36
+offsets:18,6,120,120
+fx/lua_dat (11)
+bounds:613,561,85,35
+offsets:18,6,120,120
+fx/lua_dat (13)
+bounds:259,541,86,32
+offsets:17,6,120,120
+fx/lua_dat (15)
+bounds:605,529,83,30
+offsets:18,6,120,120
+fx/lua_dat (2)
+bounds:837,411,54,23
+offsets:34,15,120,120
+fx/lua_dat (4)
+bounds:645,498,72,29
+offsets:25,11,120,120
+fx/lua_dat (6)
+bounds:87,538,79,34
+offsets:21,8,120,120
+fx/lua_dat (8)
+bounds:2,550,83,35
+offsets:19,7,120,120
+fx/lua_tay (1)
+bounds:992,408,29,34
+offsets:16,2,60,60
+fx/lua_tay (2)
+bounds:324,420,35,43
+offsets:13,2,60,60
+rotate:90
+fx/lua_tay (3)
+bounds:470,467,42,47
+offsets:10,2,60,60
+fx/lua_tay (4)
+bounds:976,486,42,50
+offsets:10,2,60,60
+fx/lua_tay (5)
+bounds:922,494,42,52
+offsets:10,2,60,60
+rotate:90
+fx/lua_tay (6)
+bounds:417,491,42,51
+offsets:11,4,60,60
+rotate:90
+fx/lua_tay (7)
+bounds:514,454,39,48
+offsets:14,7,60,60
+rotate:90
+fx/lua_tay (8)
+bounds:736,417,32,44
+offsets:17,10,60,60
+rotate:90
+fx/lua_tay (9)
+bounds:147,903,22,33
+offsets:20,17,60,60
+fx/sut_lua (1)
+bounds:136,1014,11,8
+offsets:48,22,115,65
+fx/sut_lua (10)
+bounds:383,506,31,26
+offsets:36,37,115,65
+fx/sut_lua (11)
+bounds:970,380,28,25
+offsets:38,38,115,65
+fx/sut_lua (12)
+bounds:519,723,22,22
+offsets:42,40,115,65
+fx/sut_lua (2)
+bounds:432,950,22,18
+offsets:34,22,115,65
+fx/sut_lua (3)
+bounds:151,629,23,30
+offsets:31,22,115,65
+fx/sut_lua (4)
+bounds:2,902,23,32
+offsets:31,23,115,65
+fx/sut_lua (5)
+bounds:91,394,30,35
+offsets:32,24,115,65
+fx/sut_lua (6)
+bounds:456,390,33,35
+offsets:32,26,115,65
+fx/sut_lua (7)
+bounds:420,391,34,34
+offsets:32,27,115,65
+fx/sut_lua (8)
+bounds:782,384,34,33
+offsets:33,29,115,65
+fx/sut_lua (9)
+bounds:392,385,33,26
+offsets:34,36,115,65
+rotate:90
+fx/toa_luon (10)
+bounds:451,427,38,40
+offsets:11,19,115,65
+rotate:90
+fx/toa_luon (11)
+bounds:232,375,24,33
+offsets:10,27,115,65
+rotate:90
+fx/toa_luon (2)
+bounds:17,1017,9,5
+offsets:69,21,115,65
+fx/toa_luon (3)
+bounds:320,1017,22,5
+offsets:56,22,115,65
+fx/toa_luon (4)
+bounds:562,896,42,10
+offsets:40,17,115,65
+fx/toa_luon (5)
+bounds:304,700,54,18
+offsets:28,18,115,65
+fx/toa_luon (6)
+bounds:579,494,64,33
+offsets:18,15,115,65
+fx/toa_luon (7)
+bounds:347,534,68,39
+offsets:13,13,115,65
+fx/toa_luon (8)
+bounds:417,535,66,40
+offsets:12,13,115,65
+fx/toa_luon (9)
+bounds:251,496,52,43
+offsets:12,13,115,65
+fx/toa_magic1
+bounds:228,756,85,73
+offsets:0,1,85,74
+fx/toa_sao1
+bounds:654,827,89,91
+offsets:14,14,120,120
+rotate:90
+fx/toe/1
+bounds:332,825,95,72
+offsets:1,5,98,83
+fx/toe/2
+bounds:848,844,101,70
+offsets:1,7,102,81
+fx/toe/3
+bounds:539,747,82,70
+offsets:3,6,88,80
+fx/toe/4
+bounds:76,697,78,68
+offsets:4,6,84,77
+fx/toe/5
+bounds:87,627,68,62
+offsets:4,6,76,72
+rotate:90
+fx/vet (1)
+bounds:540,370,28,23
+offsets:1,17,60,60
+fx/vet (2)
+bounds:587,387,41,27
+offsets:1,18,60,60
+fx/vet (3)
+bounds:210,431,55,28
+offsets:0,19,60,60
+fx/vet (4)
+bounds:809,447,56,29
+offsets:2,20,60,60
+fx/vet (5)
+bounds:58,442,54,30
+offsets:5,19,60,60
+fx/vet (6)
+bounds:652,418,50,28
+offsets:9,20,60,60
+fx/vet (7)
+bounds:301,905,21,22
+offsets:35,22,60,60
+fx/vet1
+bounds:773,529,57,45
+offsets:2,35,120,120
+fx/vet10
+bounds:793,576,69,53
+offsets:48,41,120,120
+fx/vet11
+bounds:564,451,41,44
+offsets:70,45,120,120
+rotate:90
+fx/vet2
+bounds:2,632,83,55
+offsets:1,35,120,120
+fx/vet3
+bounds:861,770,110,57
+offsets:0,37,120,120
+fx/vet4
+bounds:747,778,112,58
+offsets:1,39,120,120
+fx/vet5
+bounds:115,770,111,58
+offsets:4,39,120,120
+fx/vet6
+bounds:952,829,109,60
+offsets:7,38,120,120
+rotate:90
+fx/vet7
+bounds:429,770,108,60
+offsets:10,38,120,120
+fx/vet8
+bounds:2,767,102,60
+offsets:17,38,120,120
+fx/vet9
+bounds:315,766,101,57
+offsets:18,39,120,120
+fx/vet_chem
+bounds:456,894,128,104
+offsets:0,11,132,115
+rotate:90
+fx/vet_lua_dat (1)
+bounds:2,398,39,31
+offsets:51,76,120,120
+fx/vet_lua_dat (10)
+bounds:101,574,51,69
+offsets:26,9,120,120
+rotate:90
+fx/vet_lua_dat (11)
+bounds:398,452,37,51
+offsets:30,11,120,120
+rotate:90
+fx/vet_lua_dat (12)
+bounds:267,376,30,23
+offsets:35,14,120,120
+fx/vet_lua_dat (13)
+bounds:518,753,18,15
+offsets:39,18,120,120
+fx/vet_lua_dat (14)
+bounds:97,1015,10,7
+offsets:19,9,60,60
+fx/vet_lua_dat (2)
+bounds:864,529,56,49
+offsets:31,57,120,120
+fx/vet_lua_dat (3)
+bounds:943,571,58,61
+offsets:27,43,120,120
+rotate:90
+fx/vet_lua_dat (4)
+bounds:712,630,58,79
+offsets:23,23,120,120
+rotate:90
+fx/vet_lua_dat (5)
+bounds:785,690,55,86
+offsets:22,14,120,120
+fx/vet_lua_dat (6)
+bounds:793,631,52,87
+offsets:22,11,120,120
+rotate:90
+fx/vet_lua_dat (7)
+bounds:272,643,55,85
+offsets:22,8,120,120
+rotate:90
+fx/vet_lua_dat (8)
+bounds:652,671,58,81
+offsets:22,8,120,120
+fx/vet_lua_dat (9)
+bounds:540,586,55,71
+offsets:24,9,120,120
+rotate:90
+fx/vong phep
+bounds:426,681,119,40
+offsets:2,11,123,53
+fx/xoay_chan1
+bounds:172,903,127,119
+offsets:0,6,128,125

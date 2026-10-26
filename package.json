@@ -1,0 +1,10 @@
+{
+  "name": "mu-rom-online-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trang chủ Mũ Rơm Online với phòng xem thử nhân vật và kỹ năng gốc.",
+  "scripts": {
+    "start": "node serve.cjs",
+    "check": "node --check dist/app.js && node --check serve.cjs"
+  }
+}

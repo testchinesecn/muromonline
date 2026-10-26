@@ -1,0 +1,466 @@
+Gear_fourth.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+scale:0.3
+Gear_fourth/ao
+bounds:637,686,120,92
+Gear_fourth/ao_phai
+bounds:385,687,69,98
+rotate:90
+Gear_fourth/ao_trai
+bounds:728,531,35,74
+rotate:90
+Gear_fourth/ao_trai1
+bounds:728,561,25,85
+rotate:90
+Gear_fourth/ban_chan_phai
+bounds:696,528,27,34
+Gear_fourth/ban_chan_phai1
+bounds:905,534,44,23
+Gear_fourth/ban_chan_phai2
+bounds:527,536,35,37
+offsets:0,3,37,40
+rotate:90
+Gear_fourth/ban_chan_trai
+bounds:190,521,41,22
+offsets:0,0,41,27
+Gear_fourth/ban_chan_trai1
+bounds:445,527,41,22
+Gear_fourth/ban_tay_phai
+bounds:53,538,37,32
+Gear_fourth/ban_tay_phai_dam
+bounds:802,921,101,99
+rotate:90
+Gear_fourth/ban_tay_phai_thoi
+bounds:626,510,25,32
+rotate:90
+Gear_fourth/ban_tay_trai
+bounds:527,510,25,24
+offsets:1,0,26,24
+Gear_fourth/chan_duoi_phai
+bounds:392,541,25,51
+rotate:90
+Gear_fourth/chan_duoi_phai1
+bounds:566,544,26,48
+rotate:90
+Gear_fourth/chan_duoi_trai
+bounds:325,555,26,53
+Gear_fourth/chan_duoi_trai1
+bounds:1003,523,19,39
+Gear_fourth/chan_tren_phai
+bounds:98,739,59,63
+Gear_fourth/chan_tren_phai1
+bounds:609,780,70,61
+Gear_fourth/chan_tren_trai
+bounds:948,756,61,62
+Gear_fourth/chan_tren_trai1
+bounds:758,710,63,45
+Gear_fourth/chau_may
+bounds:101,607,11,9
+Gear_fourth/co
+bounds:725,515,31,27
+offsets:6,2,38,32
+Gear_fourth/dai
+bounds:782,506,32,33
+Gear_fourth/dau
+bounds:875,751,68,71
+offsets:4,0,72,71
+rotate:270
+Gear_fourth/dau1
+bounds:445,764,57,69
+Gear_fourth/day_mu
+bounds:830,505,63,34
+Gear_fourth/lung
+bounds:504,800,90,104
+rotate:90
+Gear_fourth/minh1
+bounds:504,800,90,104
+rotate:90
+Gear_fourth/ma_phai
+bounds:470,506,21,19
+Gear_fourth/ma_trai
+bounds:125,523,16,17
+Gear_fourth/mat_phai
+bounds:381,514,29,23
+Gear_fourth/mat_phai1
+bounds:147,553,15,21
+Gear_fourth/mat_phai_nham
+bounds:114,611,15,5
+offsets:4,7,22,12
+Gear_fourth/mat_trai
+bounds:660,512,17,21
+offsets:0,0,23,21
+Gear_fourth/mat_trai_nham
+bounds:211,661,11,5
+Gear_fourth/mieng_gong
+bounds:208,507,32,12
+Gear_fourth/mieng_thoi
+bounds:55,649,21,8
+Gear_fourth/minh
+bounds:819,821,101,96
+rotate:180
+Gear_fourth/mu
+bounds:258,725,58,62
+rotate:90
+Gear_fourth/mu_1
+bounds:903,907,115,84
+rotate:90
+Gear_fourth/nam_dam_dai_bac
+bounds:710,824,82,107
+rotate:90
+Gear_fourth/tay_duoi_phai
+bounds:452,550,35,61
+rotate:90
+Gear_fourth/tay_duoi_trai
+bounds:815,534,31,36
+offsets:0,1,31,37
+rotate:90
+Gear_fourth/tay_tren_phai
+bounds:889,701,54,49
+Gear_fourth/tay_tren_trai
+bounds:2,575,38,47
+offsets:0,1,38,48
+rotate:90
+Gear_fourth/toc0
+bounds:474,573,55,68
+rotate:90
+Gear_fourth/toc1
+bounds:233,509,34,41
+rotate:90
+Gear_fourth/toc2
+bounds:555,515,44,27
+Gear_fourth/toc3
+bounds:2,516,46,25
+Gear_fourth/toc4
+bounds:276,510,41,20
+Gear_fourth/toc5
+bounds:589,506,36,29
+bui_roi/ef_00
+bounds:2,693,62,14
+offsets:137,73,267,150
+bui_roi/ef_02
+bounds:159,744,97,38
+offsets:93,68,267,150
+bui_roi/ef_04
+bounds:389,835,107,44
+offsets:79,69,267,150
+bui_roi/ef_06
+bounds:284,830,103,46
+offsets:77,68,267,150
+bui_roi/ef_08
+bounds:163,784,84,50
+offsets:75,66,267,150
+bui_roi/ef_10
+bounds:2,709,66,50
+offsets:72,66,267,150
+bui_roi/ef_12
+bounds:823,711,64,44
+offsets:71,66,267,150
+bui_roi/ef_14
+bounds:2,543,49,30
+offsets:70,67,267,150
+ef_bui_chay/bui_chay (1)
+bounds:2,659,79,31
+offsets:4,42,90,90
+ef_bui_chay/bui_chay (2)
+bounds:227,658,77,29
+offsets:3,43,90,90
+ef_bui_chay/bui_chay (3)
+bounds:55,618,76,28
+offsets:2,42,90,90
+ef_bui_chay/bui_chay (4)
+bounds:306,658,76,29
+offsets:2,42,90,90
+ef_bui_chay/bui_chay (5)
+bounds:741,671,80,30
+offsets:1,42,90,90
+ef_bui_chay/bui_chay (6)
+bounds:144,668,81,31
+offsets:1,42,90,90
+fx/BG
+bounds:2,878,311,144
+fx/ban_tay_phai_dam_toa1
+bounds:89,804,72,72
+offsets:16,13,101,99
+fx/choe
+bounds:234,728,14,14
+fx/choe_sao
+bounds:576,721,59,57
+offsets:1,1,61,59
+fx/eff_dam_cao_su
+bounds:504,746,70,52
+offsets:4,2,75,58
+fx/eff_luot_dam
+bounds:744,638,70,31
+offsets:4,2,83,35
+fx/eff_tay_dam1
+bounds:315,881,214,141
+offsets:9,2,223,144
+fx/eff_tay_dam2
+bounds:531,892,177,130
+offsets:4,2,183,132
+fx/eff_xoay (1)
+bounds:413,758,28,25
+offsets:84,21,115,65
+fx/eff_xoay (10)
+bounds:536,690,90,29
+offsets:7,12,115,65
+fx/eff_xoay (11)
+bounds:125,511,81,8
+offsets:8,21,115,65
+fx/eff_xoay (2)
+bounds:249,542,43,31
+offsets:69,18,115,65
+fx/eff_xoay (3)
+bounds:916,559,49,33
+offsets:62,16,115,65
+fx/eff_xoay (4)
+bounds:355,577,51,37
+offsets:60,16,115,65
+fx/eff_xoay (5)
+bounds:945,717,71,37
+offsets:39,15,115,65
+fx/eff_xoay (6)
+bounds:322,744,89,39
+offsets:18,13,115,65
+fx/eff_xoay (7)
+bounds:144,701,88,36
+offsets:12,13,115,65
+fx/eff_xoay (8)
+bounds:234,689,92,34
+offsets:7,12,115,65
+fx/eff_xoay (9)
+bounds:444,687,90,32
+offsets:9,12,115,65
+fx/feng1_0001
+bounds:611,650,59,38
+offsets:1,1,60,39
+fx/feng1_0002
+bounds:355,616,58,36
+offsets:0,1,59,37
+fx/feng1_0003
+bounds:986,604,59,33
+offsets:1,1,60,34
+rotate:90
+fx/feng1_0004
+bounds:206,575,58,33
+offsets:0,2,59,35
+fx/khoia
+bounds:710,908,114,90
+offsets:12,0,139,90
+rotate:90
+fx/lua_ngang11
+bounds:166,552,52,29
+offsets:5,16,60,60
+rotate:90
+fx/lua_ngang13
+bounds:92,514,31,26
+offsets:10,17,60,60
+fx/lua_ngang15
+bounds:70,741,23,18
+offsets:17,21,60,60
+fx/lua_ngang16
+bounds:2,505,16,10
+offsets:18,25,60,60
+fx/lua_ngang4
+bounds:864,610,53,39
+offsets:1,11,60,60
+fx/lua_ngang5
+bounds:457,646,56,39
+offsets:1,10,60,60
+fx/lua_ngang7
+bounds:925,626,58,37
+offsets:1,11,60,60
+fx/lua_ngang9
+bounds:266,575,57,33
+offsets:2,14,60,60
+fx/lua_tay (1)
+bounds:967,533,29,34
+offsets:16,2,60,60
+rotate:90
+fx/lua_tay (2)
+bounds:860,541,35,43
+offsets:13,2,60,60
+rotate:90
+fx/lua_tay (3)
+bounds:726,594,42,47
+offsets:10,2,60,60
+rotate:90
+fx/lua_tay (4)
+bounds:515,612,42,50
+offsets:10,2,60,60
+rotate:90
+fx/lua_tay (5)
+bounds:83,648,42,52
+offsets:10,2,60,60
+rotate:90
+fx/lua_tay (6)
+bounds:2,615,42,51
+offsets:11,4,60,60
+rotate:90
+fx/lua_tay (7)
+bounds:775,588,39,48
+offsets:14,7,60,60
+fx/lua_tay (8)
+bounds:101,542,32,44
+offsets:17,10,60,60
+rotate:90
+fx/lua_tay (9)
+bounds:346,515,22,33
+offsets:20,17,60,60
+rotate:90
+fx/luot1
+bounds:609,843,47,94
+offsets:5,6,54,101
+rotate:90
+fx/luot2
+bounds:249,785,43,97
+offsets:7,3,54,101
+rotate:90
+fx/luot3
+bounds:348,785,43,95
+offsets:7,5,54,101
+rotate:90
+fx/luot4
+bounds:780,777,42,93
+offsets:8,7,54,101
+rotate:90
+fx/luot5
+bounds:681,780,42,97
+offsets:8,3,54,101
+rotate:90
+fx/luot6
+bounds:2,761,40,94
+offsets:9,6,54,101
+rotate:90
+fx/luot_dam1
+bounds:672,638,70,31
+offsets:40,10,130,50
+fx/luot_dam2
+bounds:384,654,71,31
+offsets:37,11,130,50
+fx/luot_dam3
+bounds:536,656,73,32
+offsets:36,10,130,50
+fx/luot_dam4
+bounds:137,636,72,30
+offsets:38,11,130,50
+fx/luot_dam5
+bounds:133,606,71,28
+offsets:39,12,130,50
+fx/no_dai_bac (1)
+bounds:494,521,29,31
+offsets:17,14,60,60
+rotate:90
+fx/no_dai_bac (10)
+bounds:823,659,50,50
+offsets:5,5,60,60
+fx/no_dai_bac (11)
+bounds:945,665,50,51
+offsets:5,5,60,60
+rotate:90
+fx/no_dai_bac (12)
+bounds:679,592,44,45
+offsets:9,7,60,60
+rotate:90
+fx/no_dai_bac (13)
+bounds:567,603,45,45
+offsets:9,7,60,60
+fx/no_dai_bac (14)
+bounds:307,610,46,46
+offsets:8,7,60,60
+fx/no_dai_bac (15)
+bounds:259,610,46,46
+offsets:8,7,60,60
+fx/no_dai_bac (2)
+bounds:616,537,33,35
+offsets:15,12,60,60
+rotate:90
+fx/no_dai_bac (3)
+bounds:353,539,37,36
+offsets:12,12,60,60
+fx/no_dai_bac (4)
+bounds:816,567,42,42
+offsets:9,9,60,60
+fx/no_dai_bac (5)
+bounds:211,610,46,46
+offsets:7,7,60,60
+fx/no_dai_bac (6)
+bounds:408,568,42,42
+offsets:9,9,60,60
+fx/no_dai_bac (7)
+bounds:55,572,44,44
+offsets:8,8,60,60
+fx/no_dai_bac (8)
+bounds:816,611,46,46
+offsets:7,7,60,60
+fx/no_dai_bac (9)
+bounds:875,651,48,48
+offsets:6,6,60,60
+fx/no_nho01
+bounds:70,692,72,45
+offsets:0,2,74,50
+fx/no_nho3
+bounds:921,820,85,85
+offsets:2,2,89,89
+fx/not04
+bounds:328,691,52,51
+offsets:5,4,59,56
+fx/toa_dam (1)
+bounds:442,509,26,16
+offsets:47,40,173,97
+fx/toa_dam (10)
+bounds:50,514,33,22
+offsets:83,37,173,97
+fx/toa_dam (2)
+bounds:294,532,50,21
+offsets:51,38,173,97
+fx/toa_dam (3)
+bounds:664,564,62,26
+offsets:58,35,173,97
+fx/toa_dam (4)
+bounds:101,576,63,28
+offsets:60,34,173,97
+fx/toa_dam (5)
+bounds:919,594,65,30
+offsets:60,33,173,97
+fx/toa_dam (6)
+bounds:415,612,65,32
+offsets:60,32,173,97
+fx/toa_dam (7)
+bounds:614,604,63,32
+offsets:62,32,173,97
+fx/toa_dam (8)
+bounds:544,573,60,28
+offsets:64,34,173,97
+fx/toa_dam (9)
+bounds:147,526,41,24
+offsets:81,36,173,97
+fx/toa_magic1
+bounds:2,803,85,73
+offsets:0,1,85,74
+fx/vet (1)
+bounds:412,516,28,23
+offsets:1,17,60,60
+fx/vet (2)
+bounds:653,535,41,27
+offsets:1,18,60,60
+fx/vet (3)
+bounds:967,564,55,28
+offsets:0,19,60,60
+fx/vet (4)
+bounds:606,572,56,29
+offsets:2,20,60,60
+fx/vet (5)
+bounds:860,578,54,30
+offsets:5,19,60,60
+fx/vet (6)
+bounds:197,545,50,28
+offsets:9,20,60,60
+fx/vet (7)
+bounds:318,508,21,22
+offsets:35,22,60,60
+fx/vong phep
+bounds:163,836,119,40
+offsets:2,11,123,53

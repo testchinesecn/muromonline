@@ -1,0 +1,513 @@
+luffy.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+scale:0.2
+Luffy/ban_chan_phai
+bounds:87,409,18,27
+Luffy/ban_chan_phai1
+bounds:106,388,26,15
+offsets:0,0,26,16
+Luffy/ban_chan_phai2
+bounds:601,936,25,26
+Luffy/ban_chan_trai
+bounds:537,940,29,18
+offsets:0,0,29,20
+Luffy/ban_chan_trai1
+bounds:403,968,32,19
+Luffy/ban_tay_gong_chuong1
+bounds:162,551,12,15
+rotate:90
+Luffy/ban_tay_phai
+bounds:57,258,17,17
+Luffy/ban_tay_phai_dam
+bounds:2,793,67,66
+Luffy/ban_tay_phai_nem
+bounds:254,756,15,14
+Luffy/ban_tay_phai_thoi
+bounds:311,891,16,21
+Luffy/ban_tay_trai
+bounds:52,238,17,18
+Luffy/ban_tay_trai_chi
+bounds:52,215,21,14
+rotate:90
+Luffy/chan_duoi_phai
+bounds:278,895,16,31
+rotate:90
+Luffy/chan_duoi_phai1
+bounds:269,860,16,33
+Luffy/chan_duoi_trai
+bounds:218,775,14,29
+Luffy/chan_duoi_trai1
+bounds:257,808,17,45
+Luffy/chan_tren_phai
+bounds:381,926,41,40
+Luffy/chan_tren_phai1
+bounds:60,704,35,43
+rotate:90
+Luffy/chan_tren_trai
+bounds:105,699,39,43
+Luffy/chan_tren_trai1
+bounds:100,600,41,46
+Luffy/chau_may
+bounds:723,964,7,6
+rotate:90
+Luffy/co
+bounds:146,692,20,18
+offsets:4,1,25,21
+Luffy/dau
+bounds:2,576,55,63
+Luffy/dau1
+bounds:71,796,57,63
+Luffy/long_may_phai
+bounds:501,919,10,10
+Luffy/long_may_phai1
+bounds:476,911,11,9
+Luffy/long_may_trai
+bounds:549,931,10,7
+Luffy/lung
+bounds:760,989,33,59
+rotate:90
+Luffy/ma_phai
+bounds:370,892,14,13
+rotate:90
+Luffy/ma_trai
+bounds:489,917,10,11
+Luffy/mat_phai
+bounds:52,203,13,10
+Luffy/mat_phai1
+bounds:130,796,9,10
+rotate:90
+Luffy/mat_phai_nham
+bounds:385,899,14,8
+offsets:1,0,15,8
+Luffy/mat_trai
+bounds:524,930,9,11
+rotate:90
+Luffy/mat_trai_nham
+bounds:329,968,8,3
+Luffy/mieng_gong
+bounds:489,930,15,10
+offsets:0,1,15,11
+rotate:90
+Luffy/mieng_gong1
+bounds:501,931,21,8
+Luffy/mieng_thoi
+bounds:59,187,14,6
+rotate:90
+Luffy/minh
+bounds:2,321,45,59
+Luffy/minh1
+bounds:879,989,33,55
+rotate:90
+Luffy/mu
+bounds:255,973,84,49
+offsets:1,0,86,49
+Luffy/mu_1
+bounds:2,714,77,56
+rotate:90
+Luffy/mu_sau
+bounds:341,989,86,33
+offsets:0,4,86,37
+Luffy/nam_dam_dai_bac
+bounds:2,641,55,71
+Luffy/tay_duoi_phai
+bounds:476,922,11,26
+Luffy/tay_duoi_trai
+bounds:329,892,19,22
+rotate:90
+Luffy/tay_tren_phai
+bounds:568,939,21,31
+rotate:90
+Luffy/tay_tren_trai
+bounds:107,405,14,27
+rotate:90
+Luffy/toc_mai1
+bounds:329,913,12,29
+rotate:90
+Luffy/toc_mai2
+bounds:306,914,21,26
+Luffy/toc_sau
+bounds:144,485,27,31
+rotate:90
+bui_roi/ef_00
+bounds:489,947,42,10
+offsets:91,48,178,100
+rotate:90
+bui_roi/ef_02
+bounds:566,996,65,26
+offsets:62,45,178,100
+bui_roi/ef_04
+bounds:255,942,72,29
+offsets:52,46,178,100
+bui_roi/ef_06
+bounds:429,991,69,31
+offsets:51,45,178,100
+bui_roi/ef_08
+bounds:821,989,56,33
+offsets:50,44,178,100
+bui_roi/ef_10
+bounds:52,517,44,34
+offsets:48,44,178,100
+bui_roi/ef_12
+bounds:51,462,43,30
+offsets:47,44,178,100
+bui_roi/ef_14
+bounds:141,658,32,21
+offsets:47,44,178,100
+rotate:90
+fx/body_luot_dam1
+bounds:2,861,132,63
+offsets:23,0,155,63
+fx/cuon_tay (1)
+bounds:513,921,8,9
+offsets:7,10,40,40
+rotate:90
+fx/cuon_tay (10)
+bounds:538,960,27,31
+offsets:7,7,40,40
+fx/cuon_tay (11)
+bounds:597,964,28,30
+offsets:6,8,40,40
+fx/cuon_tay (12)
+bounds:628,938,27,27
+offsets:6,10,40,40
+fx/cuon_tay (13)
+bounds:107,421,27,17
+offsets:7,17,40,40
+fx/cuon_tay (14)
+bounds:255,928,21,12
+offsets:13,21,40,40
+fx/cuon_tay (15)
+bounds:424,952,14,11
+offsets:19,23,40,40
+rotate:90
+fx/cuon_tay (16)
+bounds:537,930,8,10
+offsets:26,26,40,40
+rotate:90
+fx/cuon_tay (2)
+bounds:537,920,9,8
+offsets:6,9,40,40
+fx/cuon_tay (3)
+bounds:406,907,16,17
+offsets:6,7,40,40
+fx/cuon_tay (4)
+bounds:911,968,23,19
+offsets:6,5,40,40
+fx/cuon_tay (5)
+bounds:734,967,25,24
+offsets:7,4,40,40
+rotate:90
+fx/cuon_tay (6)
+bounds:143,600,27,25
+offsets:6,3,40,40
+fx/cuon_tay (7)
+bounds:657,939,28,25
+offsets:6,3,40,40
+fx/cuon_tay (8)
+bounds:661,966,27,30
+offsets:7,3,40,40
+rotate:90
+fx/cuon_tay (9)
+bounds:249,895,27,30
+offsets:6,3,40,40
+fx/eff_dam_cao_su
+bounds:98,514,46,35
+offsets:3,1,50,39
+fx/eff_luot_dam
+bounds:168,698,46,22
+offsets:3,1,55,24
+fx/eff_tay_dam1
+bounds:2,926,142,96
+offsets:7,0,149,96
+fx/eff_tay_dam2
+bounds:146,935,107,87
+offsets:15,0,122,88
+fx/eff_xoay (1)
+bounds:360,908,19,17
+offsets:56,14,77,43
+fx/eff_xoay (10)
+bounds:341,968,60,19
+offsets:5,8,77,43
+fx/eff_xoay (11)
+bounds:136,869,55,5
+offsets:5,14,77,43
+rotate:90
+fx/eff_xoay (2)
+bounds:234,774,29,21
+offsets:46,12,77,43
+rotate:90
+fx/eff_xoay (3)
+bounds:876,964,33,23
+offsets:42,10,77,43
+fx/eff_xoay (4)
+bounds:997,947,34,25
+offsets:40,10,77,43
+rotate:90
+fx/eff_xoay (5)
+bounds:142,757,48,24
+offsets:26,10,77,43
+rotate:90
+fx/eff_xoay (6)
+bounds:936,997,59,25
+offsets:12,9,77,43
+fx/eff_xoay (7)
+bounds:936,972,59,23
+offsets:8,9,77,43
+fx/eff_xoay (8)
+bounds:35,139,62,22
+offsets:5,8,77,43
+rotate:90
+fx/eff_xoay (9)
+bounds:33,77,60,22
+offsets:6,8,77,43
+rotate:90
+fx/khoi (1)
+bounds:143,856,37,49
+offsets:6,5,60,60
+rotate:90
+fx/khoi (10)
+bounds:59,553,38,47
+offsets:7,6,60,60
+fx/khoi (11)
+bounds:99,551,38,47
+offsets:7,6,60,60
+fx/khoi (12)
+bounds:130,807,38,47
+offsets:7,6,60,60
+fx/khoi (13)
+bounds:194,806,38,47
+offsets:7,6,60,60
+fx/khoi (14)
+bounds:59,653,39,49
+offsets:6,5,60,60
+fx/khoi (15)
+bounds:59,602,39,49
+offsets:6,5,60,60
+fx/khoi (16)
+bounds:100,648,39,49
+offsets:6,5,60,60
+fx/khoi (2)
+bounds:198,895,38,49
+offsets:6,5,60,60
+rotate:90
+fx/khoi (3)
+bounds:194,855,38,49
+offsets:6,5,60,60
+rotate:90
+fx/khoi (4)
+bounds:329,927,39,50
+offsets:6,5,60,60
+rotate:90
+fx/khoi (5)
+bounds:437,950,39,50
+offsets:6,5,60,60
+rotate:90
+fx/khoi (6)
+bounds:60,741,39,50
+offsets:6,5,60,60
+fx/khoi (7)
+bounds:101,744,39,50
+offsets:6,5,60,60
+fx/khoi (8)
+bounds:424,911,37,50
+offsets:8,5,60,60
+rotate:90
+fx/khoi (9)
+bounds:146,895,38,50
+offsets:7,5,60,60
+rotate:90
+fx/loc1
+bounds:2,511,48,63
+fx/loc2
+bounds:2,382,44,63
+fx/loc3
+bounds:2,447,47,62
+fx/lua_ngang11
+bounds:501,941,34,20
+offsets:4,10,40,40
+fx/lua_ngang13
+bounds:687,946,21,16
+offsets:7,12,40,40
+fx/lua_ngang15
+bounds:710,946,16,12
+offsets:11,14,40,40
+rotate:90
+fx/lua_ngang16
+bounds:524,921,11,7
+offsets:12,17,40,40
+fx/lua_ngang4
+bounds:48,382,35,26
+offsets:1,7,40,40
+fx/lua_ngang5
+bounds:48,410,37,26
+offsets:1,7,40,40
+fx/lua_ngang7
+bounds:997,983,39,25
+offsets:1,7,40,40
+rotate:90
+fx/lua_ngang9
+bounds:245,855,38,22
+offsets:1,9,40,40
+rotate:90
+fx/lua_tay (1)
+bounds:85,384,19,23
+offsets:11,1,40,40
+fx/lua_tay (2)
+bounds:143,627,24,29
+offsets:8,1,40,40
+fx/lua_tay (3)
+bounds:567,962,28,32
+offsets:7,1,40,40
+fx/lua_tay (4)
+bounds:141,455,28,34
+offsets:7,1,40,40
+rotate:90
+fx/lua_tay (5)
+bounds:49,345,28,35
+offsets:7,1,40,40
+fx/lua_tay (6)
+bounds:146,514,28,35
+offsets:7,2,40,40
+fx/lua_tay (7)
+bounds:627,967,26,32
+offsets:9,5,40,40
+rotate:90
+fx/lua_tay (8)
+bounds:49,321,22,30
+offsets:11,6,40,40
+rotate:90
+fx/lua_tay (9)
+bounds:381,909,15,23
+offsets:13,11,40,40
+rotate:90
+fx/luot1
+bounds:2,139,31,62
+offsets:4,4,36,67
+fx/luot2
+bounds:500,993,29,64
+offsets:5,2,36,67
+rotate:90
+fx/luot3
+bounds:2,8,28,63
+offsets:5,3,36,67
+fx/luot4
+bounds:697,994,28,61
+offsets:5,5,36,67
+rotate:90
+fx/luot5
+bounds:2,73,29,64
+offsets:5,2,36,67
+fx/luot6
+bounds:633,995,27,62
+offsets:6,4,36,67
+rotate:90
+fx/luot_dam1
+bounds:139,551,47,21
+offsets:27,7,87,34
+rotate:90
+fx/luot_dam2
+bounds:170,806,48,22
+offsets:25,7,87,34
+rotate:90
+fx/luot_dam3
+bounds:168,751,49,21
+offsets:24,7,87,34
+fx/luot_dam4
+bounds:234,805,48,21
+offsets:26,7,87,34
+rotate:90
+fx/luot_dam5
+bounds:693,973,39,19
+offsets:35,8,87,34
+fx/no_nho01
+bounds:168,774,48,30
+offsets:0,1,49,33
+fx/no_nho3
+bounds:2,262,57,53
+offsets:1,3,59,59
+rotate:90
+fx/toa_dam (1)
+bounds:219,756,17,12
+offsets:31,26,115,65
+rotate:90
+fx/toa_dam (2)
+bounds:162,565,33,14
+offsets:34,25,115,65
+rotate:90
+fx/toa_dam (3)
+bounds:57,277,42,17
+offsets:38,24,115,65
+rotate:90
+fx/toa_dam (4)
+bounds:96,440,42,19
+offsets:40,23,115,65
+fx/toa_dam (5)
+bounds:146,712,43,20
+offsets:40,22,115,65
+rotate:90
+fx/toa_dam (6)
+bounds:52,494,44,21
+offsets:40,22,115,65
+fx/toa_dam (7)
+bounds:96,461,43,22
+offsets:41,21,115,65
+fx/toa_luon (10)
+bounds:278,913,26,27
+offsets:7,12,77,43
+fx/toa_luon (11)
+bounds:307,867,17,22
+offsets:6,18,77,43
+fx/toa_luon (2)
+bounds:269,855,7,3
+offsets:46,14,77,43
+fx/toa_luon (3)
+bounds:2,2,15,4
+offsets:37,14,77,43
+fx/toa_luon (4)
+bounds:693,964,28,7
+offsets:27,11,77,43
+fx/toa_luon (5)
+bounds:140,441,36,12
+offsets:19,12,77,43
+fx/toa_luon (6)
+bounds:51,438,43,22
+offsets:12,10,77,43
+fx/toa_luon (7)
+bounds:168,722,47,27
+offsets:8,8,77,43
+fx/toa_luon (8)
+bounds:98,485,44,27
+offsets:8,8,77,43
+fx/toa_luon (9)
+bounds:501,963,35,28
+offsets:8,9,77,43
+fx/toa_magic1
+bounds:2,203,57,48
+offsets:0,1,57,49
+rotate:90
+fx/vet (1)
+bounds:233,756,19,16
+offsets:1,11,40,40
+fx/vet (2)
+bounds:287,865,28,18
+offsets:0,12,40,40
+rotate:90
+fx/vet (3)
+bounds:799,968,37,19
+offsets:0,12,40,40
+fx/vet (4)
+bounds:760,967,37,20
+offsets:1,13,40,40
+fx/vet (5)
+bounds:838,966,36,21
+offsets:3,12,40,40
+fx/vet (6)
+bounds:257,772,34,19
+offsets:6,13,40,40
+rotate:90
+fx/vet (7)
+bounds:353,892,14,15
+offsets:23,15,40,40
+rotate:90
