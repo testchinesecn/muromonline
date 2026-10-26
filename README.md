@@ -1,5 +1,9 @@
 # Web Mũ Rơm Online
 
+Xem web trực tiếp trên GitHub Pages: https://testchinesecn.github.io/muromonline/
+
+Mỗi lần đẩy mã lên nhánh `main`, GitHub Actions sẽ tự xuất bản nội dung trong `dist/`. Có thể theo dõi tại tab **Actions** của repository.
+
 Website giới thiệu game theo bố cục tham khảo https://tlkn.pgame.vn/, thay nội dung bằng nhân vật và kỹ năng của dự án. Source nằm riêng trong thư mục này, không sửa client, server hoặc dữ liệu tài khoản.
 
 ## Chạy trên máy

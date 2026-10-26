@@ -1,0 +1,55 @@
+name: Deploy Mu Rom Online to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v6
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare website metadata
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          index = Path('dist/index.html')
+          content = index.read_text(encoding='utf-8')
+          content = content.replace(
+              'https://mu-rom-online-hai-trinh.amplemoon11.chatgpt.site',
+              os.environ['PAGES_BASE_URL'].rstrip('/'),
+          )
+          index.write_text(content, encoding='utf-8')
+          PY
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
