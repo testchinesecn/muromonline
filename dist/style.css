@@ -49,3 +49,19 @@
 /* Scale poster lettering with the paper itself, including narrow phones. */
 .wanted-poster{container-type:inline-size}.wanted-verdict{font-size:clamp(15px,6cqw,25px)}.wanted-name{font-size:clamp(18px,7cqw,31px)}.wanted-reward{font-size:clamp(19px,7cqw,33px);letter-spacing:.3px;gap:5px}
 
+
+/* A small pirate-crew invitation greets visitors when the page opens. */
+.crew-invite{width:min(390px,calc(100% - 34px));max-height:90dvh;padding:0;border:1px solid #bd9b55;background:#f3e8cd;color:#183f47;box-shadow:0 20px 80px #071e3e80;overflow:auto;overscroll-behavior:contain}
+.crew-invite::backdrop{background:#092e43a8;backdrop-filter:blur(3px)}
+.crew-invite .dialog-close{width:28px;height:28px;top:10px;right:10px;font-size:22px;background:#254751;color:#f3d995;border-color:#b79a60}
+.invite-flag{height:135px;background:radial-gradient(ellipse at 50% 0,#2f5359,#112e38 80%);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#f6e6bf;clip-path:polygon(0 0,100% 0,100% 95%,85% 91%,70% 98%,50% 93%,30% 100%,14% 93%,0 98%);border-top:3px solid #d6b36b;position:relative}
+.invite-flag:before,.invite-flag:after{content:"";position:absolute;top:16px;bottom:20px;width:1px;background:#c5a66b55;left:15px}.invite-flag:after{left:auto;right:15px}
+.invite-jolly-roger{width:94px;height:84px;margin-top:-4px}.invite-flag>span{font-family:var(--display);font-size:16px;font-weight:700;letter-spacing:3px;color:#e8c780;margin-top:0}
+.invite-copy{padding:22px 29px 18px;text-align:center;background-image:radial-gradient(#99723b18 .7px,transparent .7px);background-size:5px 5px}
+.invite-kicker{font-size:7px;letter-spacing:2px;font-weight:800;color:#98703f}
+.invite-copy h2{font-family:var(--display);font-size:37px;line-height:1.08;letter-spacing:.6px;margin:11px 0 15px;font-weight:800}
+.invite-copy p{font-size:13px;line-height:1.9;color:#746b52;margin:0 0 20px}.invite-copy p strong{color:#a85230;font-weight:800}
+.invite-join{width:100%;font-size:10px;letter-spacing:.4px;gap:14px;padding:13px 12px}.invite-join .zalo-mark{font-size:18px}
+.invite-later{margin-top:13px;padding:5px 10px;background:none;font-size:10px;color:#8c7c59;text-decoration:underline;text-underline-offset:3px}.invite-later:hover{color:#a85230}
+@media(max-width:360px){.invite-copy{padding:19px 20px 16px}.invite-copy h2{font-size:33px}.invite-copy p{font-size:12px}.invite-kicker{font-size:6px;letter-spacing:1.5px}.invite-join{font-size:9px;gap:10px}.invite-flag{height:120px}.invite-jolly-roger{width:84px;height:74px}}
+

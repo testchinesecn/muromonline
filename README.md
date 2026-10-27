@@ -14,6 +14,7 @@ Có thể đưa toàn bộ nội dung `dist/` lên hosting tĩnh hoặc Nginx/II
 
 ## Nội dung
 
+- Bảng mời kiểu cờ hải tặc hiện khi mở trang, giới thiệu nhóm Zalo nhận code game; nút tham gia mở nhóm trong tab mới, có nút đóng và lựa chọn xem web trước.
 - Trang mở đầu với hoạt ảnh gốc Luffy, Zoro và Sanji.
 - Nút tải PC / Android / iOS và đăng ký hiện “Đang cập nhật”, theo yêu cầu hiện tại.
 - Tin tức, hướng dẫn và sự kiện có tab và hộp đọc nội dung; không gán lịch phát hành hoặc lịch sự kiện chưa công bố.

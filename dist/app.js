@@ -23,6 +23,10 @@ $$('dialog').forEach(dialog => {
   });
   dialog.addEventListener('close', () => { if (dialog === videoDialog) closeVideo(); });
 });
+const crewInvite = $('#crew-invite-dialog');
+$('#crew-invite-later').addEventListener('click', () => crewInvite.close());
+$('#crew-invite-join').addEventListener('click', () => crewInvite.close());
+crewInvite.showModal();
 $$('[data-pending]').forEach(button => button.addEventListener('click', () => {
   openInfo(`<span class="pending-emblem" aria-hidden="true">⚓</span><span class="eyebrow">${button.dataset.pending.toLocaleUpperCase('vi')}</span><h2>ĐANG CẬP NHẬT</h2><p>Thông tin sẽ được cập nhật sau. Thuyền trưởng hãy theo dõi Fanpage hoặc tham gia nhóm Zalo để nhận thông báo mới nhất từ Mũ Rơm Online.</p><a class="dialog-action" href="https://zalo.me/g/k8vgyeaxoqnq5viq6c0b" target="_blank" rel="noopener noreferrer">Tham gia nhóm Zalo ↗</a>`);
 }));
