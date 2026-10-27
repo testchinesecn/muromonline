@@ -1,6 +1,6 @@
 # Wanted poster asset
 
-Created with the built-in ImageGen tool on 2026-10-27, using the user's reference image. Output: `dist/assets/wanted-poster-frame.png`. The exterior is transparent; the center is ivory paper. HTML renders all changing names and bounty amounts.
+Created with the built-in ImageGen tool on 2026-10-27, using the user's reference image. The generated PNG was encoded as `dist/assets/wanted-poster-frame.webp` for faster delivery. The exterior is transparent; the center is ivory paper. HTML renders all changing names and bounty amounts.
 
 ## Prompt
 

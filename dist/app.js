@@ -138,12 +138,14 @@ class CharacterStage {
     if (this.cache.has(id)) return this.cache.get(id);
     if (this.inflight.has(id)) return this.inflight.get(id);
     const path = `assets/characters/${id}/skeleton`;
+    const jsonPath = path + '.json?v=optimized-20261027';
+    const atlasPath = path + '.atlas?v=optimized-20261027';
     const promise = Promise.all([
-      new Promise((resolve, reject) => this.assets.loadText(path + '.json', resolve, reject)),
-      new Promise((resolve, reject) => this.assets.loadTextureAtlas(path + '.atlas', resolve, reject))
+      new Promise((resolve, reject) => this.assets.loadText(jsonPath, resolve, reject)),
+      new Promise((resolve, reject) => this.assets.loadTextureAtlas(atlasPath, resolve, reject))
     ]).then(() => {
-      const loader = new spine.SkeletonJson(new spine.AtlasAttachmentLoader(this.assets.require(path + '.atlas')));
-      const data = loader.readSkeletonData(this.assets.require(path + '.json'));
+      const loader = new spine.SkeletonJson(new spine.AtlasAttachmentLoader(this.assets.require(atlasPath)));
+      const data = loader.readSkeletonData(this.assets.require(jsonPath));
       const skeleton = new spine.Skeleton(data);
       skeleton.setSkinByName('default');
       const stateData = new spine.AnimationStateData(data);
@@ -365,6 +367,8 @@ async function initCharacters() {
     $('#reset-preview').disabled = true;
   }
   await chooseCharacter(characters[0], true);
+}
+async function initHero() {
   try {
     const heroStage = new CharacterStage($('#hero-canvas'), 'hero');
     const heroes = await Promise.all([2, 1, 3].map(id => heroStage.load(id)));
@@ -381,6 +385,7 @@ initCharacters().catch(error => {
   $('#character-description').textContent = 'Chưa tải được dữ liệu nhân vật. Vui lòng tải lại trang.';
   $('.hero-loading').textContent = 'Chưa tải được hình ảnh. Vui lòng tải lại trang.';
 });
+initHero();
 
 const navObserver = new IntersectionObserver(entries => {
   for (const entry of entries) {

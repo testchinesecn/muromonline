@@ -11,6 +11,14 @@ CLIENT = ROOT.parent / '01_CLIENT_PROJECT/Assets'
 OUT = ROOT / 'dist/assets'
 OUT.mkdir(parents=True, exist_ok=True)
 
+def export_atlas(source, dest, filename):
+    atlas = (source / filename).read_text(encoding='utf-8-sig')
+    for texture in source.glob('*.png'):
+        target = dest / (texture.stem + '.webp')
+        Image.open(texture).save(target, 'WEBP', lossless=True, exact=True, method=6)
+        atlas = atlas.replace(texture.name, target.name)
+    (dest / 'skeleton.atlas').write_text(atlas, encoding='utf-8')
+
 for name in ['Harbor', 'Panel', 'GoldButton']:
     source = CLIENT / f'Resources/EntryUi/KhoiNguyen/Art/{name}.png'
     image = Image.open(source)
@@ -28,9 +36,7 @@ for key, folder, stem in [('1-gear4', 'zoom_1', 'Gear_fourth'), ('3-stealth', 'z
     data['skeleton'].pop('audio', None)
     data['skeleton'].pop('images', None)
     (dest / 'skeleton.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    shutil.copy2(source / f'{stem}.atlas.txt', dest / 'skeleton.atlas')
-    for texture in source.glob('*.png'):
-        shutil.copy2(texture, dest / texture.name)
+    export_atlas(source, dest, f'{stem}.atlas.txt')
 
 catalog = CLIENT / 'RecoveredPcContent/catalog'
 info = json.loads((catalog / 'SkillInfo.json').read_text(encoding='utf-8-sig'))['data']
@@ -54,9 +60,7 @@ for i, name in enumerate(names, 1):
     skeleton['skeleton'].pop('audio', None)
     skeleton['skeleton'].pop('images', None)
     (dest / 'skeleton.json').write_text(json.dumps(skeleton, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    shutil.copy2(source / 'atlas_payload.txt', dest / 'skeleton.atlas')
-    for texture in source.glob('*.png'):
-        shutil.copy2(texture, dest / texture.name)
+    export_atlas(source, dest, 'atlas_payload.txt')
     portrait = CLIENT / f'Resources/sprites/character on_off/{i}_On.png'
     shutil.copy2(portrait, OUT / f'portrait-{i}.png')
     skills = []

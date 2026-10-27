@@ -1,8 +1,10 @@
 # Web Mũ Rơm Online
 
-Xem web trực tiếp trên GitHub Pages: https://testchinesecn.github.io/muromonline/
+Xem web trực tiếp: https://muromonline.com/
 
 Mỗi lần đẩy mã lên nhánh `main`, GitHub Actions sẽ tự xuất bản nội dung trong `dist/`. Có thể theo dõi tại tab **Actions** của repository.
+
+Trong **Settings → Pages**, giữ **Source = GitHub Actions** và **Custom domain = muromonline.com**. Không chọn xuất bản từ thư mục gốc của nhánh `main`: thư mục gốc chứa tài liệu, còn website ở `dist/`. Bật **Enforce HTTPS** khi chứng chỉ đã sẵn sàng.
 
 Website giới thiệu game theo bố cục tham khảo https://tlkn.pgame.vn/, thay nội dung bằng nhân vật và kỹ năng của dự án. Source nằm riêng trong thư mục này, không sửa client, server hoặc dữ liệu tài khoản.
 
@@ -33,7 +35,7 @@ Có thể đưa toàn bộ nội dung `dist/` lên hosting tĩnh hoặc Nginx/II
 
 ## Nguồn tài nguyên
 
-- Bảng truy nã: `dist/assets/wanted-poster-frame.png`, chỉnh bằng ImageGen từ mẫu người dùng cung cấp; tên và tiền truy nã là chữ HTML thay theo nhân vật.
+- Bảng truy nã: `dist/assets/wanted-poster-frame.webp`, chỉnh bằng ImageGen từ mẫu người dùng cung cấp và nén WebP để tải nhanh; tên và tiền truy nã là chữ HTML thay theo nhân vật.
 - Tiền truy nã đối chiếu ngày 27/10/2026 trên [ONE PIECE.com](https://one-piece.com/character/Mugiwarano_itimi/index.html): Luffy 3,000,000,000; Zoro 1,111,000,000; Sanji 1,032,000,000; Nami 366,000,000; Usopp 500,000,000 Berry. Các giá trị nằm trong `dist/assets/characters.json` và `prepare-assets.py`.
 
 - Nền bến cảng và hình giao diện: `01_CLIENT_PROJECT/Assets/Resources/EntryUi/KhoiNguyen/Art`.
@@ -43,6 +45,8 @@ Có thể đưa toàn bộ nội dung `dist/` lên hosting tĩnh hoặc Nginx/II
 - Icon kỹ năng và catalog: `01_CLIENT_PROJECT/Assets/RecoveredPcContent/icons/skill`, `catalog/SkillInfo.json`, `catalog/SkillData.json`.
 - Rương kho báu: vùng `chest_open` trong atlas `Resources/BuggyTreasure/treasure.png`.
 - Runtime: `@esotericsoftware/spine-webgl` 4.1.56, giữ nguyên thông tin giấy phép trong file phát hành. Giấy phép runtime của Esoteric Software áp dụng khi phân phối hoặc phát hành tài nguyên Spine.
-- Phông chữ: Barlow Condensed và Be Vietnam Pro từ Google Fonts; có phông hệ thống dự phòng.
+- Phông chữ: Barlow Condensed và Be Vietnam Pro được lưu tại `dist/assets/fonts/`, kèm giấy phép OFL, không phụ thuộc Google Fonts khi mở web.
+
+`tools/optimize-web-assets.py` chuyển texture sang WebP không mất dữ liệu, nén bảng truy nã và tải phông chữ về hosting. Texture được so sánh từng pixel trước khi thay thế bản PNG của website; nguồn game không bị thay đổi.
 
 Ảnh kiểm tra và kết quả QA cục bộ được lưu tại `qa/`, không đưa vào bản hosting.

@@ -25,6 +25,14 @@ jobs:
       - name: Check out website
         uses: actions/checkout@v6
 
+      - name: Verify website source
+        run: |
+          test -f dist/index.html
+          test -f dist/style.css
+          test -f dist/assets/wanted-poster-frame.webp
+          node --check dist/app.js
+          node tools/check-site-assets.cjs
+
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
